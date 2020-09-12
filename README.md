@@ -14,7 +14,3 @@
   <h4 align="center">
  🚧 TO-DO 🚀 Em construção... 🚧
 </h4>
-## Author
-[André Queiroz](https://www.linkedin.com/in/andré-queiroz-b8805069/)
-## License
-[MIT License](https://github.com/alqlima/to-do/blob/master/LICENSE)
