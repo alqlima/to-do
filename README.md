@@ -11,6 +11,12 @@
  ## 💻 Sobre o projeto
  > O To do é uma ferramenta que vai te ajudar na sua organização de uma forma simples e prática
  ## Status do projeto
+ 
   <h4 align="center">
  🚧 TO-DO 🚀 Em construção... 🚧
 </h4>
+
+## Author
+[André Queiroz](https://www.linkedin.com/in/andré-queiroz-b8805069/)
+## License
+[MIT](https://github.com/alqlima/to-do/blob/master/LICENSE)
