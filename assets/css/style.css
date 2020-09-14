@@ -45,6 +45,12 @@ body {
 	color: #999;
 	cursor: not-allowed;
 }
+.todo button {
+	color: #fff;
+	background-color: red;
+	float: right;
+	min-width: 30px;
+}
 #new-task {
 	width: 100%;
 	padding: 10px;

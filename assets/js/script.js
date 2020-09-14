@@ -10,6 +10,7 @@ function rendTodo() {
 		li.innerHTML = `
 			<input type="checkbox" id="task-${task.id}">
 			<label for="task-${task.id}">${task.title}</label>
+			<button tyoe="button">x</button>
 		`;
 		
 		li.querySelector('input').addEventListener("change", e => {
@@ -19,7 +20,9 @@ function rendTodo() {
 				li.classList.remove('complete');
 			}
 		})
-		
+		li.querySelector('button').addEventListener('click', e => {
+			console.warn('Você vai deletar essa tarefa?')
+		})
 		document.querySelector('.todo').append(li);
 	});
 }
