@@ -50,6 +50,8 @@ body {
 	background-color: red;
 	float: right;
 	min-width: 30px;
+	border: none;
+	
 }
 #new-task {
 	width: 100%;
