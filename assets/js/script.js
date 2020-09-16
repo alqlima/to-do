@@ -21,7 +21,16 @@ function rendTodo() {
 			}
 		})
 		li.querySelector('button').addEventListener('click', e => {
-			console.log(e.target.parentNode.querySelector('input').id.split('-')[1]);
+			let button = e.target;
+			let li = button.parentNode;
+			let input = li.querySelector('input');
+			let id = input.id;
+			let idArray = id.split('-');
+			let todoId = idArray[1];
+			
+			data = data.filter(task => (task.id != parseInt(todoId)))
+			
+			rendTodo();
 		})
 		document.querySelector('.todo').append(li);
 	});
