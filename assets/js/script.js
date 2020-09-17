@@ -27,10 +27,14 @@ function rendTodo() {
 			let id = input.id;
 			let idArray = id.split('-');
 			let todoId = idArray[1];
+			let title = li.querySelector('label').innerText;
 			
-			data = data.filter(task => (task.id != parseInt(todoId)))
+			if (confirm(`Deseja realmente excluir a tarefa ${title}?`)) {
+				data = data.filter(task => (task.id != parseInt(todoId)))
+				rendTodo();
+			}
+						
 			
-			rendTodo();
 		})
 		document.querySelector('.todo').append(li);
 	});
@@ -38,7 +42,7 @@ function rendTodo() {
 
 document.querySelector('#new-task').addEventListener("keyup", e => {
 	if (e.key === 'Enter') {
-		console.log(e.target.value);
+		//console.log(e.target.value);
 		
 		data.push({
 			id: data.length + 1,
