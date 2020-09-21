@@ -13,7 +13,7 @@
  ## Status do projeto
  
   <h4 align="center">
- 🚧 TO-DO 🚀 Em construção... 🚧
+ 🚧 TO-DO 🚀 Concluido 🚧
 </h4>
 
 ## Author
